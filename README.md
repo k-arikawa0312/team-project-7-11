@@ -14,3 +14,9 @@ git add .
 git commit -m 'ここに「〇〇した」などメッセージを書く'
 
 git push origin ブランチ名
+
+プルのやり方
+
+ターミナル上で次のコマンドを入力
+
+git pull origin ブランチ名
