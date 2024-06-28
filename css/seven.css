@@ -1,5 +1,31 @@
-body{
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    display: flex;
+    flex-flow: column;
     background-color: #e3ffb6;
     margin: 0;
     padding: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+li {
+    display: block;
+}
+
+h1 {
+    font-weight: 800;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+img {
+    width: 40%;
+    margin: 0 auto;
 }
