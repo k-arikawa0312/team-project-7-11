@@ -1,0 +1,36 @@
+ul{
+    list-style: none;
+}
+
+.ranking{
+    counter-reset: rank 4;
+}
+
+.ranking li{
+    position: relative;
+}
+
+.ranking li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.ranking li::before{
+    counter-increment: rank -1;
+    content: counter(rank) "位";
+    position: absolute;
+    padding: 8px 14px;
+    font-size: 1.2em;
+    color: rgb(236, 238, 240);
+    background: rgba(109, 106, 106, 0.8);
+
+}
+
+.ranking p {
+    position: absolute;
+    bottom: 0;
+    width: 514px;
+    padding: 3px;
+    color: aliceblue;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: right;
+}
