@@ -2,14 +2,26 @@
 
 body{
     background-color: #e3ffb6;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     margin: 0;
     padding: 10px 0 10px 0;
-    border-bottom: solid 2px #666666;
     font-family: 'Rampart One';
     font-size: 64px;
+    text-align: center;
+    color: #ffff00;
+    background-color: #333333;
+  }
+
+h2 {
+    margin: 0;
+    padding: 10px 0 10px 0;
+    border-bottom: solid 2px #666666;
+    font-family: 'Rampart One';
+    font-size: 40px;
     text-align: center;
     color: #ffff00;
     background-color: #333333;
@@ -21,4 +33,16 @@ img {
     width: 400px;
     height: 300px;
     border: solid 2px #000000;
+}
+
+#choice1{
+    margin: 0 0 0 300px;
+}
+
+#choice2{
+    margin: 0 0 0 430px;
+}
+
+#choice3{
+    margin: 0 0 0 480px;
 }
